@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Gustavo Guanabara</title>
+    <title>Portfólio Gustavo Guanabara</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="shortcut icon" href="favicon.svg"type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg">
+    <script src="https://kit.fontawesome.com/412e60f1e0.js" crossorigin="anonymous"></script>
+</head>
 <body>
     <header>
         <nav id="menu">
@@ -44,8 +46,8 @@
             <article id="skills">
                 <h2><i class="fa-solid fa-brain"></i> Minhas skills</h2>
 
-                <div id="skill-container">
-                    <div class="item">
+                <div id="skill-container"><!-- Container de Skills -->
+                    <div class="item"> <!-- Skill 01 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-code"></i> HTML5
@@ -58,7 +60,8 @@
                             <div class="progresso" style="width: 90%;"></div>
                         </div>
                     </div>
-                    <div class="item">
+
+                    <div class="item"> <!-- Skill 02 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-code"></i> CSS3
@@ -67,11 +70,12 @@
                                 80%
                             </span>
                         </div>
-                        <div class="barra">
+                        <div class="barra"> <!-- Skill 03 -->
                             <div class="progresso" style="width: 80%;"></div>
                         </div>
                     </div>
-                    <div class="item">
+
+                    <div class="item"> <!-- Skill 04 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-code"></i> JavaScript
@@ -84,20 +88,18 @@
                             <div class="progresso" style="width: 75%;"></div>
                         </div>
                     </div>
-                    <div class="item">
+
+                     <div class="item"> <!-- Skill 05 -->
                         <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i> PHP
-                            </span>
-                            <span class="porcent">
-                                60%
-                            </span>
+                            <span class="nome"><i class="fa-solid fa-code"></i> PHP</span>
+                            <span class="porcent">60%</span>
                         </div>
                         <div class="barra">
-                            <div class="progresso" style="width: 60%;"></div>
+                            <div class="progresso" style="width: 60%"></div>
                         </div>
                     </div>
-                    <div class="item">
+
+                    <div class="item"> <!-- Skill 06 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-person-rays"></i> Comunicação
@@ -110,51 +112,43 @@
                             <div class="progresso" style="width: 100%;"></div>
                         </div>
                     </div>
-                    <div class="item">
+
+                    <div class="item"> <!-- Skill 07 -->
                         <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i> Trabalho em equipe
-                            </span>
-                            <span class="porcent">
-                                90%
-                            </span>
+                            <span class="nome"><i class="fa-solid fa-person-rays"></i> Trabalho em equipe</span>
+                            <span class="porcent">90%</span>
                         </div>
                         <div class="barra">
-                            <div class="progresso" style="width: 90%;"></div>
+                            <div class="progresso" style="width: 90%"></div>
                         </div>
                     </div>
-                    <div class="item">
+
+                    <div class="item"> <!-- Skill 08 -->
                         <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i> Adaptabilidade
-                            </span>
-                            <span class="porcent">
-                                85%
-                            </span>
+                            <span class="nome"><i class="fa-solid fa-person-rays"></i> Adaptabilidade</span>
+                            <span class="porcent">85%</span>
                         </div>
                         <div class="barra">
-                            <div class="progresso" style="width: 85%;"></div>
+                            <div class="progresso" style="width: 85%"></div>
                         </div>
                     </div>
-                    <div class="item">
+
+                    <div class="item"> <!-- Skill 09 -->
                         <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i> Liderança
-                            </span>
-                            <span class="porcent">
-                                80%
-                            </span>
+                            <span class="nome"><i class="fa-solid fa-person-rays"></i> Liderança</span>
+                            <span class="porcent">80%</span>
                         </div>
                         <div class="barra">
-                            <div class="progresso" style="width: 80%;"></div>
+                            <div class="progresso" style="width: 80%"></div>
                         </div>
                     </div>
                 </div>
-            </article> <!-- fim article#skills -->
+            </article> <!-- Fim article#skills -->
 
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
-             <div id="formacao-container"> <!-- Container Formações -->
+
+                <div id="formacao-container"> <!-- Container Formações -->
 
                     <div class="curso"> <!-- Formação 01 -->
                         <p class="periodo">1991 - 1994</p>
@@ -193,7 +187,8 @@
                     </div>
 
                 </div>
-            </article> <!-- fim article#formacao -->
+
+            </article> <!-- Fim article#formacao -->
 
             <article id="projetos">
                 <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
@@ -228,25 +223,65 @@
                     <div class="projeto"> <!-- Projeto 03 -->
                         <img src="imagens/projeto-03-android.jpg" alt="Projeto Android" class="foto">
                         <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Vídeos</h3>
-                            <p>Projeto construído para treinar conteúdos e imagens dinamicas</p>
+                            <p class="periodo">2023</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Projeto construído para treinar conteúdos e imagens dinâmicas com a História do sistema Android.</p>
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
-                                <p>Primeiro projeto construído no Curso de HTML5 e CSS3 do CursoemVídeo onde construímos a navegação entre páginas e a incorporação de mídias, principalmente de imagens e vídeos. Um ótimo início para quem estava em seus primeiros passos em HTML e CSS.</p>
+                                <p>Você sabia que o sistema Android não foi criado inicialmente para ser usado em celulares? Acompanhe esse projeto para conhecer um pouco mais sobre as curiosidades que envolvem o sistema mais popular para smartphones e aprenda como adaptar mídias a diferentes tamanhos de tela.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 04 -->
+                        <img src="imagens/projeto-04-links.jpg" alt="Projeto Social" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2024</p>
+                            <h3 class="titulo">Projeto Redes Sociais</h3>
+                            <p>Projeto construído para treinar responsividade e múltiplos media queries e divulgar as suas principais redes sociais.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Um meta projeto muito interessante deixa o visitante interagir com um aparelho de smartphone que tem seu conteúdo carregado a cada vez que você clica em um ícone de redes sociais. Interatividade e responsividade para um projeto bem elaborado e que utiliza iframes na sua estrutura principal.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 05 -->
+                        <img src="imagens/projeto-05-login.jpg" alt="Projeto Login" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2024</p>
+                            <h3 class="titulo">Projeto Login</h3>
+                            <p>Projeto construído para treinar responsividade e formulários em uma das telas mais populares em sistemas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Criar uma tela de login é algo muito comum na vida de quem vai construir sites. Mas essa tela de login deve conter componentes bonitos e com funcionalidades bem definidas e intuitivas de usar. Essa tela de login vai adaptando seus conteúdos usando caixas flexíveis (flexbox) para funcionar em qualquer tamanho de tela.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 06 -->
+                        <img src="imagens/projeto-06-album.jpg" alt="Projeto Album Flex" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Álbum de Fotos</h3>
+                            <p>Projeto construído para treinar conteúdos flexíveis usando CSS FlexBox para mostrar um álbum de fotos.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Mostrar fotos de tamanhos diferentes em uma mesma tela pode ser um grande desafio de design, mas também pode ser uma grande oportunidade para treinar nossos conhecimentos adquiridos sobre flexbox e criar uma maneira discreta e de bom-gosto para apresentar nossas memórias em forma de imagens.</p>
                             </details>
                         </div>
                     </div>
 
                 </div>
-            </article>
+
+            </article> <!-- Fim article#projetos -->
         </section>
     </main>
+
     <footer>
-        Portifólio desenvolvido por <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a> em 2025
+        Portfólio desenvolvido por <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a> em 2025
     </footer>
 
     <script src="scripts/script.js"></script>
-    <script src="https://kit.fontawesome.com/9d133923ec.js" crossorigin="anonymous"></script>
 </body>
 </html>
